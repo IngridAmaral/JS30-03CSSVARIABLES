@@ -1,3 +1,19 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 3px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--base);
+}
+
 body {
     text-align: center;
     background: #193549;
@@ -8,7 +24,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
   }
 
   .controls {
